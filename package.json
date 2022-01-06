@@ -2,8 +2,8 @@
   "name": "reservation-app",
   "version": "0.0.0",
   "engines": {
-    "node": "17.3.0", 
-    "npm":"8.3.0"
+    "node": "17.3.0",
+    "npm": "8.3.0"
   },
   "scripts": {
     "ng": "ng",
@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "bootstrap": "^4.6.1",
+    "express": "^4.17.2",
     "jquery": "^3.6.0",
     "mongoose": "^6.1.5",
     "rxjs": "~7.4.0",
