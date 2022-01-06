@@ -23,7 +23,6 @@ mongoose.connect(config.DB_URI,
 const app = express()
 app.use("/api/v1/products", productsRouter)
 
-
 // 開発環境と本番環境で処理を切り替える
 if(process.env.NODE_ENV === "production"){
     // 本番環境
