@@ -41,3 +41,4 @@ app.listen(PORT);
 console.log("I am running!")
 console.log("PORT:" + PORT)
 console.log("HOST:" + HOST)
+console.log(config.DB_URI)
