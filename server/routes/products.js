@@ -12,11 +12,8 @@ router.get("/:productId", function(req, res){
     const productId = req.params.productId
     Product.findById(productId, function(err, foundProduct){
         if(err){
-            console.log("error")
             return res.status(422).send({errors: [{title: "Products error", detail: "Product not found"}]})
         }
-        console.log(err)
-        console.log("not error")
         return res.json(foundProduct)
     })
 })

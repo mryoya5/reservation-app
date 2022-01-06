@@ -4,7 +4,6 @@ import { ProductModule } from './product/product.modules';
 
 const routes: Routes = [
   {path: "", redirectTo: "products", pathMatch: "full"},
-  // {path: "detail", component: ProductDetailComponent},
 ];
 
 @NgModule({
