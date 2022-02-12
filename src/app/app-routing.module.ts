@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductModule } from './product/product.modules';
+import { AuthModule } from './auth/auth.modules';
 
 const routes: Routes = [
   {path: "", redirectTo: "products", pathMatch: "full"},
@@ -10,6 +11,7 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes),
     ProductModule,
+    AuthModule,
   ],
   exports: [
     RouterModule,
