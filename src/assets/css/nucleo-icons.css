@@ -12,7 +12,7 @@ License - nucleoapp.com/license/
   font-style: normal;
 }
 /*------------------------
-	base class definition
+  base class definition
 -------------------------*/
 .nc-icon {
   display: inline-block;
@@ -159,7 +159,7 @@ License - nucleoapp.com/license/
   transform: scale(1, -1);
 }
 /*------------------------
-	font icons
+  font icons
 -------------------------*/
 
 .nc-air-baloon::before {
