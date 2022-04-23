@@ -5,13 +5,13 @@ import { Observable } from "rxjs";
 @Injectable()
 export class ProductService{
 
-    constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
-    getProducts(): Observable<any>{
-        return this.http.get("/api/v1/products")
-    }
+  getProducts(): Observable<any>{
+    return this.http.get("/api/v1/products")
+  }
 
-    getProductById(productId:String): Observable<any>{
-        return this.http.get("/api/v1/products/" + productId)
-    }
+  getProductById(productId:String): Observable<any>{
+    return this.http.get("/api/v1/products/" + productId)
+  }
 }

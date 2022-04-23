@@ -7,13 +7,13 @@ import { NavbarComponent } from "./common/navbar/navbar.component";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
+  AppComponent,
+  NavbarComponent,
   ],
   imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
+  BrowserModule,
+  HttpClientModule,
+  AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
